@@ -1,4 +1,3 @@
-import ElevatorPitch from "@/components/elevatorPitch/elevatorpitch";
 import Footer from "@/components/footer/footer";
 import Heading from "@/components/miscellaneous/heading";
 import Header from "@/components/navbar/navbar";

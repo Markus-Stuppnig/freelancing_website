@@ -1,7 +1,6 @@
 import Footer from "@/components/footer/footer";
 import Heading from "@/components/miscellaneous/heading";
 import Header from "@/components/navbar/navbar";
-import Image from "next/image";
 
 export default async function Page({
   params,
