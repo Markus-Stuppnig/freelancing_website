@@ -1,0 +1,11 @@
+<svg
+    class="divider"
+    width="900"
+    height="150"
+    viewBox="0 0 900 150"
+    xmlns="http://www.w3.org/2000/svg"
+    style="transform: scaleY(-1);"
+    preserveAspectRatio="none"
+>
+    <path fill="#263b69" d="M0,75 C300,122 600,28 900,75 L900,150 L0,150 Z" />
+</svg>

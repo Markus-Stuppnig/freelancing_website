@@ -1,0 +1,23 @@
+<svg
+    id="visual"
+    viewBox="0 0 900 700"
+    width="900"
+    height="700"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="1.1"
+><rect x="0" y="0" width="900" height="700" fill="#263B69" /><g
+        fill="#537ACF"
+    ><circle r="133" cx="72" cy="218" /><circle
+            r="25"
+            cx="747"
+            cy="215"
+        /><circle r="66" cx="351" cy="358" /><circle
+            r="82"
+            cx="830"
+            cy="568"
+        /><circle r="91" cx="517" cy="35" /><circle
+            r="97"
+            cx="118"
+            cy="594"
+        /><circle r="95" cx="523" cy="586" /></g></svg>

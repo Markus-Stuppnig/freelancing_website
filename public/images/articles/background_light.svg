@@ -1,0 +1,19 @@
+<svg
+    id="visual"
+    viewBox="0 0 900 800"
+    width="900"
+    height="800"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="1.1"
+><rect x="0" y="0" width="900" height="800" fill="#E5F4F5" /><g
+        fill="#537ACF"
+    ><circle r="143" cx="72" cy="218" /><circle
+            r="152"
+            cx="830"
+            cy="580"
+        /><circle r="101" cx="667" cy="100" /><circle
+            r="117"
+            cx="118"
+            cy="634"
+        /><circle r="160" cx="463" cy="430" /></g></svg>
