@@ -12,6 +12,7 @@
     "@formatjs/intl-localematcher": "^0.6.1",
     "@headlessui/react": "^2.2.3",
     "@types/nodemailer": "^6.4.17",
+    "@vercel/analytics": "^1.5.0",
     "framer-motion": "^12.11.3",
     "negotiator": "^1.0.0",
     "next": "15.3.2",
