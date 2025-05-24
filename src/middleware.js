@@ -35,7 +35,7 @@ export const config = {
     // - _next (internal Next.js assets)
     // - images (your public images folder)
     // - favicon.ico (the favicon)
-    "/((?!_next|images|videos|favicon\\.ico).*)",
+    "/((?!_next|images|videos|api|favicon\\.ico).*)",
     // Optional: only run on root (/) URL
     // '/'
   ],
