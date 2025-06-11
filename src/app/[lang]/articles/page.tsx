@@ -23,7 +23,7 @@ export default async function Page({
         <Heading size="text-5xl" color="background">
           Articles
         </Heading>
-        <p className="font-semibold text-xl mt-5 text-background">
+        <p className="font-semibold text-2xl mt-5 text-background">
           This page is about my articles. WIP
         </p>
       </div>

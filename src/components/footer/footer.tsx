@@ -19,7 +19,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="pt-7 pb-7 md:pt-10 md:pb-8 px-4 text-gray-500 w-full flex justify-center shadow-2xl">
+      <footer className="mt-20 pt-7 pb-7 md:pt-10 md:pb-8 px-4 text-gray-500 w-full flex justify-center shadow-2xl">
         <div className="flex flex-row items-center text-center gap-x-3 lg:w-2/3 text-xs">
           <div className="w-1/3 animate-slidein">
             Wexstraße 19-23, 1200 Vienna
@@ -28,9 +28,6 @@ export default function Footer() {
             &copy; {currentYear} Markus Stuppnig. All rights reserved.
           </div>
           <div className="w-1/3 animate-slidein flex flex-row justify-center space-x-3">
-            {/* <Link href="https://instagram.com/markusstuppnig" target="_blank">
-              <FaInstagram size={24} />
-            </Link> */}
             <Link href="https://github.com/Markus-Stuppnig" target="_blank">
               <FaGithub size={24} />
             </Link>

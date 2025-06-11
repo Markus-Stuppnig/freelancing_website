@@ -1,5 +1,6 @@
 import Footer from "@/components/footer/footer";
 import Heading from "@/components/miscellaneous/heading";
+import Text from "@/components/miscellaneous/text";
 import Header from "@/components/navbar/navbar";
 
 export default async function Page({
@@ -10,123 +11,120 @@ export default async function Page({
   const { lang } = await params;
   return (
     <>
-      <div className="h-screen relative">
-        <Header />
-        <div className="flex justify-center w-full mt-[17rem] sm:mt-[12rem]">
-          <div className="flex flex-col w-7/8 sm:w-4/5 text-xl font-semibold">
-            <Heading
-              size={"text-2xl sm:text-5xl/14"}
-              weight="font-semibold"
-              className="z-1 text-shadow-sm"
-            >
-              About Me
-            </Heading>
-            <p className="z-1 mt-12">
-              Hi, I'm Markus Stuppnig — a freelance IT consultant based in
-              Vienna, Austria.
-              <br />I have a deep love for technology. There's something magical
-              about taking something simple and giving it the ability to learn,
-              adapt, and make decisions on its own. This fascination led me to
-              specialize in{" "}
-              <span className="text-highlight">
-                Artificial Intelligence (AI)
-              </span>
-              , where I help machines become smarter and more useful.
-            </p>
-          </div>
-        </div>
-        <img
-          src="/images/about/background_light.svg"
-          alt="waves"
-          className="absolute bottom-0 left-0 w-full h-full"
-          style={{ objectFit: "fill" }}
-        />
+      <Header />
+      <div
+        className="flex w-full h-screen justify-center items-center flex-col"
+        style={{
+          backgroundImage: "url('/images/articles/blob-haikei.svg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <Heading size="text-5xl" color="background">
+          About
+        </Heading>
+        <p className="font-semibold text-2xl mt-5 text-background">
+          This page is about me.
+        </p>
       </div>
-      <div className="flex w-full h-full justify-center mt-10 sm:mt-0 mb-20">
-        <div className="flex flex-col w-7/8 sm:w-4/5 text-xl font-semibold">
+      <div className="flex w-full h-full justify-center">
+        <div className="flex flex-col w-7/8 sm:w-4/5">
           <Heading
-            size={"text-2xl sm:text-5xl/14"}
+            size={"text-2xl sm:text-4xl"}
             weight="font-semibold"
-            className="z-1 text-shadow-sm mt-20"
+            className="mb-5"
           >
             What I do
           </Heading>
-          <p className="z-1 mt-12">
-            I work with businesses to create intelligent systems that can:
-          </p>
-          <ul className="list-disc ml-10">
-            <li>
-              Understand and process language using Large Language Models (LLMs)
-            </li>
-            <li>Recognize images and patterns through Computer Vision</li>
-            <li>Automate tasks and workflows with custom bots</li>
-            <li> Build reliable backend systems using Spring Boot and Flask</li>
-            <li>
-              Design data pipelines that move and transform information
-              efficiently
-            </li>
-            <li>
-              Integrate APIs and third-party tools to connect different services
-            </li>
-            <li>
-              Provide tailored AI consulting to solve unique business challenges
-            </li>
-          </ul>
-          <p className="z-1 mt-12">
-            Whether you're looking to improve your operations, enhance customer
-            experiences, or explore new AI opportunities, I'm here to help.
-          </p>
+          <Text>
+            <p>
+              I work with businesses to create intelligent systems that can:
+            </p>
+            <ul className="mt-5 list-disc ml-10">
+              <li>
+                Understand and process language using Large Language Models
+                (LLMs)
+              </li>
+              <li>Recognize images and patterns through Computer Vision</li>
+              <li>Automate tasks and workflows with custom bots</li>
+              <li>
+                {" "}
+                Build reliable backend systems using Spring Boot and Flask
+              </li>
+              <li>
+                Design data pipelines that move and transform information
+                efficiently
+              </li>
+              <li>
+                Integrate APIs and third-party tools to connect different
+                services
+              </li>
+              <li>
+                Provide tailored AI consulting to solve unique business
+                challenges
+              </li>
+            </ul>
+            <p className="mt-5">
+              Whether you're looking to improve your operations, enhance
+              customer experiences, or explore new AI opportunities, I'm here to
+              help.
+            </p>
+          </Text>
           <Heading
-            size={"text-2xl sm:text-5xl/14"}
+            size={"text-2xl sm:text-4xl"}
             weight="font-semibold"
-            className="z-1 text-shadow-sm mt-20"
+            className="mb-5 mt-10"
           >
             My Journey
           </Heading>
-          <p className="z-1 mt-12">
-            I studied Computer Science at the Technologisches Gewerbemuseum
-            (TGM) in Vienna, focusing on Data Science. During my time there, I
-            led several projects, including:
-          </p>
-          <ul className="ml-10 list-disc">
-            <li>
-              Digital Emergeny Physician: An AI-powered app to assist emergency
-              responders in stroke diagnosis.
-            </li>
-            <li>
-              VSA Platform: A service to help individuals manage and pass on
-              their digital legacy.
-            </li>
-          </ul>
-          <p className="z-1 mt-12">
-            I also gained international experience through internships:
-          </p>
-          <ul className="ml-10 list-disc">
-            <li>
-              Giesecke+Devrient in Dubai: Developed a platform analyzing
-              competitor data using AI.
-            </li>
-            <li>
-              Siemens in Vienna: Enhanced a network analysis tool with new
-              features and visualizations.
-            </li>
-          </ul>
-          <p className="z-1 mt-12">
-            These experiences have equipped me with a diverse skill set and a
-            global perspective.
-          </p>
+          <Text>
+            <p>
+              I studied Computer Science at the Technologisches Gewerbemuseum
+              (TGM) in Vienna, focusing on Data Science. During my time there, I
+              led several projects, including:
+            </p>
+            <ul className="mt-5 ml-10 list-disc">
+              <li>
+                Digital Emergeny Physician: An AI-powered app to assist
+                emergency responders in stroke diagnosis.
+              </li>
+              <li>
+                VSA Platform: A service to help individuals manage and pass on
+                their digital legacy.
+              </li>
+            </ul>
+            <p className="mt-5">
+              I also gained international experience through internships:
+            </p>
+            <ul className="mt-5 ml-10 list-disc">
+              <li>
+                Giesecke+Devrient in Dubai: Developed a platform analyzing
+                competitor data using AI.
+              </li>
+              <li>
+                Siemens in Vienna: Enhanced a network analysis tool with new
+                features and visualizations.
+              </li>
+            </ul>
+            <p className="mt-5">
+              These experiences have equipped me with a diverse skill set and a
+              global perspective.
+            </p>
+          </Text>
           <Heading
-            size={"text-2xl sm:text-5xl/14"}
+            size={"text-2xl sm:text-4xl"}
             weight="font-semibold"
-            className="z-1 text-shadow-sm mt-20"
+            className="mb-5 mt-10"
           >
             Let's Connect
           </Heading>
-          <p className="z-1 mt-12">
-            If you're interested in collaborating or have a project in mind,
-            feel free to reach out. I look forward to bringing your ideas to
-            life with the power of AI.
-          </p>
+          <Text>
+            <p>
+              If you're interested in collaborating or have a project in mind,
+              feel free to reach out. I look forward to bringing your ideas to
+              life with the power of AI.
+            </p>
+          </Text>
         </div>
       </div>
       <Footer />
