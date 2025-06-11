@@ -20,11 +20,6 @@ const menuData: Menu[] = [
     newTab: false,
     path: "/work",
   },
-  {
-    title: "Articles",
-    newTab: false,
-    path: "/articles",
-  },
 ];
 
 export default menuData;
