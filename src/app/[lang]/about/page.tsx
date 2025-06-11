@@ -32,47 +32,6 @@ export default async function Page({
           <Heading
             size={"text-2xl sm:text-4xl"}
             weight="font-semibold"
-            className="mb-5"
-          >
-            What I do
-          </Heading>
-          <Text>
-            <p>
-              I work with businesses to create intelligent systems that can:
-            </p>
-            <ul className="mt-5 list-disc ml-10">
-              <li>
-                Understand and process language using Large Language Models
-                (LLMs)
-              </li>
-              <li>Recognize images and patterns through Computer Vision</li>
-              <li>Automate tasks and workflows with custom bots</li>
-              <li>
-                {" "}
-                Build reliable backend systems using Spring Boot and Flask
-              </li>
-              <li>
-                Design data pipelines that move and transform information
-                efficiently
-              </li>
-              <li>
-                Integrate APIs and third-party tools to connect different
-                services
-              </li>
-              <li>
-                Provide tailored AI consulting to solve unique business
-                challenges
-              </li>
-            </ul>
-            <p className="mt-5">
-              Whether you're looking to improve your operations, enhance
-              customer experiences, or explore new AI opportunities, I'm here to
-              help.
-            </p>
-          </Text>
-          <Heading
-            size={"text-2xl sm:text-4xl"}
-            weight="font-semibold"
             className="mb-5 mt-10"
           >
             My Journey

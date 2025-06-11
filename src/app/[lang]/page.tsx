@@ -22,9 +22,9 @@ export default async function Page({
             >
               Hi, I'm Markus.
               <br />
-              Let's turn your <span className="text-highlight">idea</span>
+              Let me help you <span className="text-highlight">Automate</span>
               <br />
-              into <span className="text-highlight">reality</span>.
+              your <span className="text-highlight">Lead Generation</span>.
             </Heading>
           </div>
         </div>
