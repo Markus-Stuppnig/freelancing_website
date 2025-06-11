@@ -12,16 +12,16 @@ export default async function Page({
     <>
       <div className="h-screen relative">
         <Header />
-        <div className="flex justify-center w-full mt-[13rem]">
-          <div className="flex flex-col w-4/5 text-xl font-semibold">
+        <div className="flex justify-center w-full mt-[17rem] sm:mt-[12rem]">
+          <div className="flex flex-col w-7/8 sm:w-4/5 text-xl font-semibold">
             <Heading
-              size={"text-5xl/14"}
+              size={"text-2xl sm:text-5xl/14"}
               weight="font-semibold"
               className="z-1 text-shadow-sm"
             >
               About Me
             </Heading>
-            <p className="w-2/3 z-1 mt-12">
+            <p className="z-1 mt-12">
               Hi, I'm Markus Stuppnig — a freelance IT consultant based in
               Vienna, Austria.
               <br />I have a deep love for technology. There's something magical
@@ -42,16 +42,16 @@ export default async function Page({
           style={{ objectFit: "fill" }}
         />
       </div>
-      <div className="flex w-full h-full justify-center mb-20">
-        <div className="flex flex-col w-4/5 text-xl font-semibold">
+      <div className="flex w-full h-full justify-center mt-10 sm:mt-0 mb-20">
+        <div className="flex flex-col w-7/8 sm:w-4/5 text-xl font-semibold">
           <Heading
-            size={"text-5xl/14"}
+            size={"text-2xl sm:text-5xl/14"}
             weight="font-semibold"
             className="z-1 text-shadow-sm mt-20"
           >
             What I do
           </Heading>
-          <p className="w-2/3 z-1 mt-12">
+          <p className="z-1 mt-12">
             I work with businesses to create intelligent systems that can:
           </p>
           <ul className="list-disc ml-10">
@@ -72,18 +72,18 @@ export default async function Page({
               Provide tailored AI consulting to solve unique business challenges
             </li>
           </ul>
-          <p className="w-2/3 z-1 mt-12">
+          <p className="z-1 mt-12">
             Whether you're looking to improve your operations, enhance customer
             experiences, or explore new AI opportunities, I'm here to help.
           </p>
           <Heading
-            size={"text-5xl/14"}
+            size={"text-2xl sm:text-5xl/14"}
             weight="font-semibold"
             className="z-1 text-shadow-sm mt-20"
           >
             My Journey
           </Heading>
-          <p className="w-2/3 z-1 mt-12">
+          <p className="z-1 mt-12">
             I studied Computer Science at the Technologisches Gewerbemuseum
             (TGM) in Vienna, focusing on Data Science. During my time there, I
             led several projects, including:
@@ -98,7 +98,7 @@ export default async function Page({
               their digital legacy.
             </li>
           </ul>
-          <p className="w-2/3 z-1 mt-12">
+          <p className="z-1 mt-12">
             I also gained international experience through internships:
           </p>
           <ul className="ml-10 list-disc">
@@ -111,18 +111,18 @@ export default async function Page({
               features and visualizations.
             </li>
           </ul>
-          <p className="w-2/3 z-1 mt-12">
+          <p className="z-1 mt-12">
             These experiences have equipped me with a diverse skill set and a
             global perspective.
           </p>
           <Heading
-            size={"text-5xl/14"}
+            size={"text-2xl sm:text-5xl/14"}
             weight="font-semibold"
             className="z-1 text-shadow-sm mt-20"
           >
             Let's Connect
           </Heading>
-          <p className="w-2/3 z-1 mt-12">
+          <p className="z-1 mt-12">
             If you're interested in collaborating or have a project in mind,
             feel free to reach out. I look forward to bringing your ideas to
             life with the power of AI.
