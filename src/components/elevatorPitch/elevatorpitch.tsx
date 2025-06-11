@@ -4,11 +4,11 @@ import ContactButton from "../contactButton/contactbutton";
 const ElevatorPitch = () => {
   return (
     <div className="flex w-full justify-center mt-[5rem] mb-[10rem]">
-      <div className="flex flex-col w-4/5">
-        <div className="w-full flex flex-row">
-          <div className="w-1/2 pr-[2rem]">
+      <div className="flex flex-col w-11/12 sm:w-4/5">
+        <div className="w-full flex flex-col sm:flex-row">
+          <div className="w-full sm:w-1/2 sm:pr-[2rem]">
             <Heading size="text-4xl">Introduction</Heading>
-            <p className="mt-5 mb-5 text-xl font-semibold">
+            <p className="mt-5 mb-5 text-lg/snug font-medium sm:text-xl sm:font-semibold">
               I’m a data scientist and software developer with a passion for
               building <span className="text-highlight">AI</span> that solves
               real-world problems—from helping emergency responders diagnose
@@ -24,7 +24,7 @@ const ElevatorPitch = () => {
               fast—let’s talk.
             </p>
           </div>
-          <div className="w-1/2 flex items-center justify-center ml-10">
+          <div className="w-4/5 sm:w-1/2 flex items-center justify-center ml-10">
             <video width="600" height="500" controls preload="none">
               <source src="/videos/introduction.mp4" type="video/mp4" />
               {/* <track
@@ -37,8 +37,8 @@ const ElevatorPitch = () => {
             </video>
           </div>
         </div>
-        <div className="flex flex-row w-full">
-          <p className="mt-10 text-xl font-semibold w-2/3">
+        <div className="flex flex-col sm:flex-row w-full">
+          <p className="mt-10 text-lg/snug font-medium sm:text-xl sm:font-semibold sm:w-2/3">
             Want to know more? Head over to the{" "}
             <a href="/about" className="text-highlight">
               About Me
@@ -56,7 +56,7 @@ const ElevatorPitch = () => {
             section—I post there regularly. And hey, don’t hesitate to reach
             out. I don’t bite. 😄
           </p>
-          <div className="flex w-1/3 justify-center items-center">
+          <div className="mt-10 sm:mt-0 flex justify-center items-center">
             <ContactButton />
           </div>
         </div>

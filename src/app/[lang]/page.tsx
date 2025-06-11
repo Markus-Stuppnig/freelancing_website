@@ -14,18 +14,19 @@ export default async function Page({
       <div className="h-screen relative">
         <Header />
         <div className="flex w-full h-full">
-          <Heading
-            size={"text-5xl/14"}
-            capitalize={false}
-            weight="font-semibold"
-            className="mt-[12rem] ml-[13rem] z-1 text-shadow-sm"
-          >
-            Hi, I'm Markus.
-            <br />
-            Let's turn your <span className="text-highlight">idea</span>
-            <br />
-            into <span className="text-highlight">reality</span>.
-          </Heading>
+          <div className="ml-[2rem] sm:ml-[13rem] mt-[5rem] sm:mt-[12rem] z-1 text-shadow-sm">
+            <Heading
+              size={"text-2xl sm:text-5xl/14"}
+              capitalize={false}
+              weight="font-semibold"
+            >
+              Hi, I'm Markus.
+              <br />
+              Let's turn your <span className="text-highlight">idea</span>
+              <br />
+              into <span className="text-highlight">reality</span>.
+            </Heading>
+          </div>
         </div>
         <img
           src="/images/waves.svg"
